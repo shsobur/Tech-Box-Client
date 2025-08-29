@@ -1,9 +1,11 @@
+import Banner from "@/Components/Banner/Banner";
+
 export default function Home() {
   return (
-    <section>
+    <>
       <div>
-        Hello next js! what up!!!
+        <Banner></Banner>
       </div>
-    </section>
+    </>
   );
 }

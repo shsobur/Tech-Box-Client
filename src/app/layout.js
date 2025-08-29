@@ -29,9 +29,7 @@ export default function RootLayout({ children }) {
         </header>
 
         <main>
-          <div className="h-[calc(100vh-30px)] border-2 border-purple-500">
-            {children}
-          </div>
+          <div>{children}</div>
         </main>
 
         <footer className="border border-red-500 px-10 h-[100px]">
